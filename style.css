@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 350px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #22c55e;
+    color: white;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #16a34a;
+}
+
+#missao {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
